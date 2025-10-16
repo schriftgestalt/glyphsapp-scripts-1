@@ -138,7 +138,7 @@ class GlyphSlanter(object):
 				layer.applyTransform((
 					horizontal,  # x scale factor
 					0.0,  # x skew factor
-					math.radians(angle), (center),  # y skew factor
+					math.radians(angle),  # y skew factor
 					vertical,  # y scale factor
 					0.0,  # x position
 					0.0  # y position
